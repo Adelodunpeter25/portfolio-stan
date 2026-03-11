@@ -97,6 +97,16 @@ const Projects = () => {
       githubUrl: "#",
       category: "Education Technology"
     },
+    {
+      id: 6,
+      title: "Active Boulevard",
+      description: "Website for Active Boulevard.",
+      image: "/active.png",
+      technologies: ["React", "Typescript"],
+      liveUrl: "https://activeblvd.com/",
+      githubUrl: "#",
+      category: "Fitness Technology"
+    },
   ];
 
   return (
