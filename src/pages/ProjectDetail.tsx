@@ -59,6 +59,18 @@ const ProjectDetail = () => {
       category: "Education Technology",
       features: ["Extensive Maritime Collection", "Search Functionality", "User Account Management", "Downloadable Resources", "Mobile-Friendly Design"]
     },
+    {
+      id: 8,
+      title: "Trulaju",
+      description: "A fair, fast and precise pay per km coverage that's priced by actual vehicle activities, Making savings for all type of fleet businesses",
+      fullDescription: "Trulaju is a revolutionary insurance platform that offers fair, fast, and precise pay-per-km coverage based on actual vehicle activities. Designed to help fleet businesses save money while ensuring comprehensive protection.",
+      image: "/tru.png",
+      technologies: ["React", "Nextjs", "Typescript"],
+      liveUrl: "https://trulaju.com",
+      githubUrl: "#",
+      category: "Insurance Technology",
+      features: ["Pay-per-kilometer fleet insurance", "Real-Time mileage monitoring", "Fleet management dashboard", "Digital claims processing"]
+    },
   ];
 
   const allProjects = [...projects, ...web3Projects];

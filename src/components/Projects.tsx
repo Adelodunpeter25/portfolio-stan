@@ -107,6 +107,16 @@ const Projects = () => {
       githubUrl: "#",
       category: "Education Technology"
     },
+    {
+      id: 8,
+      title: "Trulaju",
+      description: "A fair, fast and precise pay per km coverage that's priced by actual vehicle activities, Making savings for all type of fleet businesses",
+      image: "/tru.png",
+      technologies: ["React", "Nextjs", "Typescript"],
+      liveUrl: "https://trulaju.com",
+      githubUrl: "#",
+      category: "Insurance Technology"
+    },
   ];
 
   return (
