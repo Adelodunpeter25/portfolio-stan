@@ -90,12 +90,22 @@ const Projects = () => {
     {
       id: 6,
       title: "Active Boulevard",
-      description: "Website for Active Boulevard.",
+      description: "Website for Active Boulevard - A comprehensive fitness and wellness platform connecting trainers, clients, and fitness enthusiasts in a modern digital ecosystem",
       image: "/active.png",
       technologies: ["React", "Typescript"],
       liveUrl: "https://activeblvd.com/",
       githubUrl: "#",
       category: "Fitness Technology"
+    },
+    {
+      id: 7,
+      title: "NIMASA E-Library",
+      description: "Nigerian Maritime Administration and Safety Agency's online library platform for maritime books and resources",
+      image: "/nim.png",
+      technologies: ["Php", "MySQL"],
+      liveUrl: "https://nimasaelibraryonline.org/",
+      githubUrl: "#",
+      category: "Education Technology"
     },
   ];
 

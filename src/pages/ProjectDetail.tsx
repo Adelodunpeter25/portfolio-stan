@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, ExternalLink, Github } from "lucide-react";
 import { web3Projects } from "@/components/Projects";
+import { features } from "process";
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -38,13 +39,25 @@ const ProjectDetail = () => {
       id: 6,
       title: "Active Boulevard",
       description: "Website for Active Boulevard - A comprehensive fitness and wellness platform connecting trainers, clients, and fitness enthusiasts in a modern digital ecosystem.",
-      fullDescription: "Active Boulevard is a cutting-edge fitness and wellness platform that revolutionizes how people discover, connect with, and engage in fitness activities. Our platform serves as a comprehensive hub where certified trainers can showcase their expertise, clients can find personalized training programs, and fitness enthusiasts can access premium workout content, nutrition guidance, and community support. Built with modern web technologies, Active Boulevard features an intuitive user interface, real-time booking systems, progress tracking, and integrated payment solutions to create seamless experiences for all users.",
+      fullDescription: "Active Boulevard is a cutting-edge fitness and wellness platform that revolutionizes how people discover, connect with, and engage in fitness activities. Our platform serves as a comprehensive hub where certified trainers can showcase their expertise, clients can find personalized training programs, and fitness enthusiasts can access premium workout content, nutrition guidance, and community support. Built with modern web technologies, Active Boulevard features an intuitive user interface to create seamless experiences for all users.",
       image: "/active.png",
       technologies: ["React", "TypeScript"],
       liveUrl: "https://activeblvd.com/",
       githubUrl: "#",
       category: "Fitness Technology",
       features: ["Trainer Profiles", "Class Booking System", "Progress Tracking", "Community Features", "Mobile Responsive Design"]
+    },
+    {
+      id: 7,
+      title: "NIMASA E-Library",
+      description: "Nigerian Maritime Administration and Safety Agency's online library platform for maritime books and resources",
+      fullDescription: "The NIMASA E-Library is an online platform developed for the Nigerian Maritime Administration and Safety Agency (NIMASA) to provide easy access to a vast collection of maritime books, research papers, and resources. This digital library serves as a comprehensive repository for maritime professionals, students, and researchers, offering a user-friendly interface for browsing, searching, and downloading maritime literature.",
+      image: "/nim.png",
+      technologies: ["Php", "MySQL"],
+      liveUrl: "https://nimasaelibraryonline.org/",
+      githubUrl: "#",
+      category: "Education Technology",
+      features: ["Extensive Maritime Collection", "Search Functionality", "User Account Management", "Downloadable Resources", "Mobile-Friendly Design"]
     },
   ];
 
