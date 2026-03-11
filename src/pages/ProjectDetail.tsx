@@ -35,16 +35,16 @@ const ProjectDetail = () => {
     },
 
     {
-      id: 5,
-      title: "EverySchool Management System",
-      description: "EverySchool is an integrated, cloud-based school management system designed to streamline administrative processes and enhance educational outcomes for institutions of all sizes.",
-      fullDescription: "EverySchool is an integrated, cloud-based school management system designed to streamline administrative processes and enhance educational outcomes for institutions of all sizes. Our comprehensive platform brings together students, teachers, parents, and administrators in a unified digital ecosystem that simplifies daily operations and improves communication across the entire school community.",
-      image: "/every.png",
-      technologies: ["Php", "MySQL"],
-      liveUrl: "https://everyschool.online",
+      id: 6,
+      title: "Active Boulevard",
+      description: "Website for Active Boulevard - A comprehensive fitness and wellness platform connecting trainers, clients, and fitness enthusiasts in a modern digital ecosystem.",
+      fullDescription: "Active Boulevard is a cutting-edge fitness and wellness platform that revolutionizes how people discover, connect with, and engage in fitness activities. Our platform serves as a comprehensive hub where certified trainers can showcase their expertise, clients can find personalized training programs, and fitness enthusiasts can access premium workout content, nutrition guidance, and community support. Built with modern web technologies, Active Boulevard features an intuitive user interface, real-time booking systems, progress tracking, and integrated payment solutions to create seamless experiences for all users.",
+      image: "/active.png",
+      technologies: ["React", "TypeScript"],
+      liveUrl: "https://activeblvd.com/",
       githubUrl: "#",
-      category: "Education Technology",
-      features: ["Student Management", "Teacher Portal", "Parent Communication", "Administrative Tools", "Academic Tracking"]
+      category: "Fitness Technology",
+      features: ["Trainer Profiles", "Class Booking System", "Progress Tracking", "Community Features", "Mobile Responsive Design"]
     },
   ];
 

@@ -88,16 +88,6 @@ const Projects = () => {
       category: "Travel Technology"
     },
     {
-      id: 5,
-      title: "EverySchool Management System",
-      description: "EverySchool is an integrated, cloud-based school management system designed to streamline administrative processes and enhance educational outcomes for institutions of all sizes.",
-      image: "/every.png",
-      technologies: ["Php", "MySQL"],
-      liveUrl: "https://everyschool.online",
-      githubUrl: "#",
-      category: "Education Technology"
-    },
-    {
       id: 6,
       title: "Active Boulevard",
       description: "Website for Active Boulevard.",
@@ -121,8 +111,8 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Web3 Projects Section */}
-        <div className="mb-20">
+        {/* Web3 Projects Section - Hidden */}
+        {/* <div className="mb-20">
           <div className="text-center mb-12">
             <h3 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
               Blockchain & Web3
@@ -191,7 +181,7 @@ const Projects = () => {
               </Card>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Traditional Projects Section */}
         <div className="text-center mb-12">
