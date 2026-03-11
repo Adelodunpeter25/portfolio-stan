@@ -71,6 +71,18 @@ const ProjectDetail = () => {
       category: "Insurance Technology",
       features: ["Pay-per-kilometer fleet insurance", "Real-Time mileage monitoring", "Fleet management dashboard", "Digital claims processing"]
     },
+    {
+      id: 9,
+      title: "Readnwin",
+      description: "The ultimate digital and social reading platform that promotes the reading culture amongst young African youths through incentive programs",
+      fullDescription: "Readnwin is a cutting-edge digital and social reading platform designed to promote the reading culture among young African youths through innovative incentive programs.",
+      image: "/read.png",
+      technologies: ["React", "FastAPI", "Postgresql"],
+      liveUrl: "https://readnwin.com",
+      githubUrl: "#",
+      category: "Education Technology",
+      features: ["Built-in E-reader", "Reading Analytics", "Admin dashboard with full administration features", "User Dashboard", "Mobile-Friendly Design", "Payment Integration"]
+    },
   ];
 
   const allProjects = [...projects, ...web3Projects];

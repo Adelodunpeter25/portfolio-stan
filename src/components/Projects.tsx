@@ -117,6 +117,16 @@ const Projects = () => {
       githubUrl: "#",
       category: "Insurance Technology"
     },
+    {
+      id: 9,
+      title: "Readnwin",
+      description: "The ultimate digital and social reading platform that promotes the reading culture amongst young African youths through incentive programs",
+      image: "/read.png",
+      technologies: ["React", "FastAPI", "Postgresql"],
+      liveUrl: "https://readnwin.com",
+      githubUrl: "#",
+      category: "Education Technology"
+    },
   ];
 
   return (
